@@ -272,6 +272,14 @@ proxy-groups:
 rule-providers:
   # 远程规则集
 
+  sogouinput:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/sogouinput.txt
+    path: ./sukkaw_ruleset/sogouinput.txt
+
   Unbreak: # 规则修正
     type: http
     behavior: classical
@@ -400,6 +408,7 @@ rule-providers:
 
 rules:
   # 分流规则引用
+  - RULE-SET,sogouinput,REJECT
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,ADblock
   - RULE-SET,Privacy,ADblock
