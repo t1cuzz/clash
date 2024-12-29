@@ -970,6 +970,7 @@ proxy-providers:
   #     url: *health-check-url
 
 rules:
+  -DOMAIN-KEYWORD,mtalk.google, DIRECT
   - DOMAIN-SUFFIX,short.weixin.qq.com,国外流量
   - DOMAIN-SUFFIX,long.weixin.qq.com,国外流量
   - DOMAIN-SUFFIX,szshort.weixin.qq.com,国外流量
