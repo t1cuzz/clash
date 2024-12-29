@@ -162,7 +162,7 @@ BASE-DATA:
       # - local
     proxy-providers-common:
       airport-interval: &airport-interval 36000
-      url-airport: &url-airport "" https://www.djjc.cfd/api/v1/client/subscribe?token=cce6047f4a0a32c05123f00cf97f98f7
+      url-airport: &url-airport "" https://gates.djjc.cfd/api/v1/client/subscribe?token=cce6047f4a0a32c05123f00cf97f98f7&flag=meta
       proxy-file-path-AirPort: &proxy-file-path-AirPort myprovider/proxies/provider-airport.yml
       url-add-on: &url-add-on "" # 这里填入第二个机场链接
       proxy-file-path-Add-On: &proxy-file-path-Add-On myprovider/proxies/provider-add-on.yml
