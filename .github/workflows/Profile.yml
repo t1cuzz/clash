@@ -408,7 +408,7 @@ rule-providers:
 
 rules:
   # 分流规则引用
-    -DOMAIN-SUFFIX,short.weixin.qq.com,Proxy
+  -DOMAIN-SUFFIX,short.weixin.qq.com,Proxy
   -DOMAIN-SUFFIX,long.weixin.qq.com,Proxy
   -DOMAIN-SUFFIX,szshort.weixin.qq.com,Proxy
   -DOMAIN-SUFFIX,szlong.weixin.qq.com,Proxy
