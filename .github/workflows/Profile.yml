@@ -408,11 +408,6 @@ rule-providers:
 
 rules:
   # 分流规则引用
-  -DOMAIN-SUFFIX,short.weixin.qq.com,PROXY
-  -DOMAIN-SUFFIX,long.weixin.qq.com,PROXY
-  -DOMAIN-SUFFIX,szshort.weixin.qq.com,PROXY
-  -DOMAIN-SUFFIX,szlong.weixin.qq.com,PROXY
-  -DOMAIN-SUFFIX,dns.weixin.qq.com.cn,PROXY
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,AD-Ban,ADblock
   - RULE-SET,Privacy,ADblock
